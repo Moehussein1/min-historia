@@ -37,7 +37,12 @@ if choice == "ja":
 else:
     print("Du fortsätter med", hero_health, "hälsa.")
 
-print(hero_name, "kommer fram till en gammal bro.")
+print("Du fortsätter med", hero_health, "hälsa.")
+
+print("Efter resan återvänder", hero_name, "hem till", hero_place)
+print("Äventyret är slut för", hero_name)
+print("Guld kvar:", gold)
+print("Hälsa kvar:", hero_health)
 
     
 
