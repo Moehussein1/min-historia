@@ -29,5 +29,7 @@ if choice == "ja":
             hero_item = "svärd"
             print("Du lämnar allt du hade och tar svärdet.")
             print("Du har", gold, "Guldmynt kvar")
+
+
     
 
