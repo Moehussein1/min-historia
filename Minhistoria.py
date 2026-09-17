@@ -30,6 +30,14 @@ if choice == "ja":
             print("Du lämnar allt du hade och tar svärdet.")
             print("Du har", gold, "Guldmynt kvar")
 
+choice = input("Vill du vila innan du fortsätter? (ja/nej): ")
+if choice == "ja":
+    hero_health = 10
+    print("Du vilar och har nu", hero_health, "hälsa.")
+else:
+    print("Du fortsätter med", hero_health, "hälsa.")
+
+print(hero_name, "kommer fram till en gammal bro.")
 
     
 
